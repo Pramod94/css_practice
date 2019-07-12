@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Css1 from './Example1/example1';
+import Css2 from './Example2/example2';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div >
-        <Css1 />
+        <Css2 />
       </div>
     );
   }
