@@ -1,12 +1,20 @@
-import React, { Component } from 'react';
-import Css1 from './Example1/example1';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import FlipCard from "./FlipCard/FlipCard";
+import avatar from "./avatar.png";
 
 class App extends Component {
   render() {
+    const profile = {
+      avatar: avatar,
+      holderName: "PMD",
+      position: "Software Engg",
+      age: "27",
+    };
+
     return (
-      <div >
-        <Css1 />
+      <div className="center">
+        <FlipCard profile={profile} />
       </div>
     );
   }
