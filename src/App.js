@@ -13,8 +13,11 @@ class App extends Component {
     };
 
     return (
+      <div>
       <div className="center">
+        <h2 style={{ padding: "20px" }}>FlipCard</h2>
         <FlipCard profile={profile} />
+      </div>
       </div>
     );
   }
